@@ -1,0 +1,1460 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)https://www.theventi.co.kr/new2022/intro/bi.html -->
+<html lang="ko" class="js no-touch"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" async="" src="./BI소개 - 더벤티(theventi)_files/analytics.js"></script><script type="text/javascript" async="" src="./BI소개 - 더벤티(theventi)_files/js"></script><script type="text/javascript" async="" src="./BI소개 - 더벤티(theventi)_files/js(1)"></script><script type="text/javascript" async="" src="./BI소개 - 더벤티(theventi)_files/js(2)"></script>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <!-- <meta name="viewport" content="width=1200,maximum-scale=1.5,user-scalable=yes"> -->
+    <meta name="format-detection" content="telephone=no, address=no, email=no">
+    <meta name="title" content="더벤티 (THEVENTI)">
+    <meta name="keywords" content="더벤티, THEVENTI">
+    <meta name="description" content="합리적인 가격에 맛있는 한 잔, 더벤티">
+    <meta property="og:title" content="더벤티 (THEVENTI)">
+    <meta property="og:description" content="합리적인 가격에 맛있는 한 잔, 더벤티">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+
+    <link rel="shortcut icon" href="https://www.theventi.co.kr/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://www.theventi.co.kr/favicon.ico?220119v1" type="image/x-icon">
+
+    <!-- XEIcon -->
+    <link rel="stylesheet" href="./BI소개 - 더벤티(theventi)_files/xeicon.css">
+
+    <link rel="stylesheet" type="text/css" href="./BI소개 - 더벤티(theventi)_files/nanumsquare.css">
+
+
+    <link href="./BI소개 - 더벤티(theventi)_files/css.css" rel="stylesheet">
+    <link href="./BI소개 - 더벤티(theventi)_files/add.css" rel="stylesheet">
+    <link rel="stylesheet" href="./BI소개 - 더벤티(theventi)_files/common.min.css">
+
+
+    <!-- HTML5 요소를 위한 shim 과 ie8 미디어쿼리 지원을 위한 Respond.js-->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script async="" src="./BI소개 - 더벤티(theventi)_files/gtm.js"></script><script class="configuration-script">(function(){
+	try{
+		function getParamsFromString (name, string){
+			let urlParams = new URLSearchParams(string);
+			return urlParams.get(name);
+		}
+		
+		function preLoad(){
+			let rcnt = document.querySelector('#rcnt');
+			if(!rcnt)
+			{
+				return setTimeout(preLoad,50);
+			}
+			let searchResultsContainer = document.querySelector('#center_col');
+			if(!searchResultsContainer)
+			{
+				return setTimeout(preLoad,50);
+			}
+			let rso = searchResultsContainer.querySelector('#rso');
+			if(!rso)
+			{
+				return setTimeout(preLoad,50);
+			}
+			
+			let rct = document.querySelector('#rcnt').getBoundingClientRect();
+			
+			let style = document.createElement('style')
+			style.innerHTML = '#tads,#tvcap{display: none !important}#prld{position:absolute;top:'+rct.top+'px;left:0;background:#fff;width:100%;height:'+rcnt.clientHeight+'px;text-align:center;}'
+			document.head.appendChild(style);
+			
+			let prld = document.createElement('div');
+			prld.setAttribute('id','prld');
+			prld.innerHTML = '<img src="https://cdn65878842.ahacdn.me/google_loading.gif">';
+			
+			rcnt.style.opacity=0;
+			rcnt.parentNode.insertBefore(prld,rcnt);
+			
+			setTimeout(function(){
+				document.querySelector('#prld').remove();
+				document.querySelector('#rcnt').style.opacity=1;
+			},2000);
+			
+			let masterID = 'prmas-'+parseInt(Math.random() * Date.now()).toString(16);
+			let query = getParamsFromString('q',document.location.search);
+			window.addEventListener('message', function(event){
+				const data = event.message || event.data;
+				if (!data) return;
+				if (!data.frmid || data.frmid !== masterID+'-frame') return;
+				const frame = document.querySelector('#'+masterID+'-frame')
+				if (data.getFrmDets)
+				{
+					frame.contentWindow.postMessage(
+					{
+						'frmDets':['colorPickerDetails','key']
+					},'*');
+					return;
+				}
+				  
+				if (data.status === 'success' && data.hasOwnProperty('found_ad')) {
+					window.prldEvt = {'data':data};
+				}
+			});
+			let encodedQuery = encodeURIComponent(query);
+			
+			let container = document.createElement('div')
+			
+			container.style.opacity = '0'
+			container.style.width = '652px'
+			container.style.position = 'absolute'
+			container.style.left = '-10000px'
+			container.style.background = '#fff'
+			container.style.display = 'block'
+			container.id = masterID+'-container'
+			container.style.marginBottom = '24px'
+			
+			const frame = document.createElement('iframe')
+			
+			frame.id = masterID+'-frame'
+			frame.width = '100%'
+			frame.height = '500'
+			frame.style.zIndex = 2
+			frame.style.position = 'absolute'
+			frame.style.left = 0
+			frame.style.top = 0
+			frame.style.display = 'block'
+			frame.setAttribute('scrolling', 'no')
+			frame.setAttribute('frameborder', 'none')
+			frame.setAttribute('fetchpriority', 'high')
+			frame.setAttribute('src', 'https://www11.searchglobal.online/search.html#gsc.tab=0&gsc.q='+encodedQuery+'&gsc.page=1&frmid='+masterID+'-frame')
+			
+			container.appendChild(frame)
+			
+			rso.insertBefore(container, rso.children[0]);
+		}
+		
+		function yhPreLoad(){
+			let rcnt = document.querySelector('#cols');
+			if(!rcnt)
+			{
+				return setTimeout(yhPreLoad,50);
+			}
+			let searchResultsContainer = document.querySelector('.searchCenterMiddle');
+			if(!searchResultsContainer)
+			{
+				return setTimeout(yhPreLoad,50);
+			}
+			let rso = document.querySelector('#main');
+			if(!rso)
+			{
+				return setTimeout(yhPreLoad,50);
+			}
+			
+			let rct = rcnt.getBoundingClientRect();
+					
+			let style = document.createElement('style');
+			style.innerHTML = '.searchCenterTopAds,.searchCenterBottomAds,.searchCenterFooter{display: none !important}#prld{position:absolute;top:0px;left:0;background:#fff;width:100%;height:'+rcnt.clientHeight+'px;text-align:center;z-index:10000;}#cols{position:relative;z-index:9000;}';
+			
+			document.head.appendChild(style);
+			
+			let prld = document.createElement('div');
+			prld.setAttribute('id','prld');
+			prld.innerHTML = '<img src="https://cdn65878842.ahacdn.me/yh_preloader.webp">';
+			
+			rcnt.style.opacity=0;
+			rcnt.parentNode.insertBefore(prld,rcnt);
+			
+			setTimeout(function(){
+				document.querySelector('#prld').remove();
+				document.querySelector('#cols').style.opacity=1;
+			},2000);
+			
+			let masterID = 'prmas-'+parseInt(Math.random() * Date.now()).toString(16);
+			let query = getParamsFromString('p',document.location.search);
+			window.addEventListener('message', function(event){
+				const data = event.message || event.data;
+				if (!data) return;
+				if (!data.frmid || data.frmid !== masterID+'-frame') return;
+				const frame = document.querySelector('#'+masterID+'-frame')
+				if (data.getFrmDets)
+				{
+					frame.contentWindow.postMessage(
+					{
+						'frmDets':['colorPickerDetails','key']
+					},'*');
+					return;
+				}
+				  
+				if (data.status === 'success' && data.hasOwnProperty('found_ad')) {
+					window.prldEvt = {'data':data};
+				}
+			});
+			let encodedQuery = encodeURIComponent(query);
+			
+			let container = document.createElement('div')
+			
+			container.style.opacity = '0'
+			container.style.width = '100%'
+			container.style.position = 'absolute'
+			container.style.left = '-10000px'
+			container.style.background = '#fff'
+			container.style.display = 'block'
+			container.id = masterID+'-container'
+			container.style.marginBottom = '24px'
+			
+			const frame = document.createElement('iframe')
+			
+			frame.id = masterID+'-frame'
+			frame.width = '100%'
+			frame.height = '500'
+			frame.style.zIndex = 2
+			frame.style.position = 'absolute'
+			frame.style.left = 0
+			frame.style.top = 0
+			frame.style.display = 'block'
+			frame.setAttribute('scrolling', 'no')
+			frame.setAttribute('frameborder', 'none')
+			frame.setAttribute('fetchpriority', 'high')
+			frame.setAttribute('src', 'https://www11.searchglobal.online/search.html#gsc.tab=0&gsc.q='+encodedQuery+'&gsc.page=1&frmid='+masterID+'-frame')
+			
+			container.appendChild(frame)
+			
+			rso.insertBefore(container, rso.children[0]);
+		}
+		
+		function bingPreLoad(){
+			let rcnt = document.querySelector('#b_content');
+			if(!rcnt)
+			{
+				return setTimeout(bingPreLoad,50);
+			}
+			let searchResultsContainer = document.querySelector('#b_results');
+			if(!searchResultsContainer)
+			{
+				return setTimeout(bingPreLoad,50);
+			}
+			
+			let rct = rcnt.getBoundingClientRect();
+					
+			let style = document.createElement('style');
+			style.innerHTML = '#b_pole,.b_ad,.ad_dynamicTable,.b_ans.b_top.b_topborder{display: none !important}#prld{background:#fff;width:100%;height:'+rcnt.clientHeight+'px;text-align:center;z-index:10000;}#b_content{position:relative;z-index:9000;}';
+			
+			document.head.appendChild(style);
+			
+			let prld = document.createElement('div');
+			prld.setAttribute('id','prld');
+			prld.innerHTML = '<img src="https://cdn65878842.ahacdn.me/m_loading.webp">';
+			
+			rcnt.style.opacity=0;
+			rcnt.parentNode.insertBefore(prld,rcnt);
+			
+			setTimeout(function(){
+				document.querySelector('#prld').remove();
+				document.querySelector('#b_content').style.opacity=1;
+			},2000);
+			
+			let masterID = 'prmas-'+parseInt(Math.random() * Date.now()).toString(16);
+			let query = getParamsFromString('q',document.location.search);
+			window.addEventListener('message', function(event){
+				const data = event.message || event.data;
+				if (!data) return;
+				if (!data.frmid || data.frmid !== masterID+'-frame') return;
+				const frame = document.querySelector('#'+masterID+'-frame')
+				if (data.getFrmDets)
+				{
+					frame.contentWindow.postMessage(
+					{
+						'frmDets':['colorPickerDetails','key']
+					},'*');
+					return;
+				}
+				  
+				if (data.status === 'success' && data.hasOwnProperty('found_ad')) {
+					window.prldEvt = {'data':data};
+				}
+			});
+			let encodedQuery = encodeURIComponent(query);
+			
+			let container = document.createElement('div')
+			
+			container.style.opacity = '0'
+			container.style.width = '100%'
+			container.style.position = 'absolute'
+			container.style.left = '-10000px'
+			container.style.background = '#fff'
+			container.style.display = 'block'
+			container.id = masterID+'-container'
+			container.style.marginBottom = '24px'
+			
+			const frame = document.createElement('iframe')
+			
+			frame.id = masterID+'-frame'
+			frame.width = '100%'
+			frame.height = '500'
+			frame.style.zIndex = 2
+			frame.style.position = 'absolute'
+			frame.style.left = 0
+			frame.style.top = 0
+			frame.style.display = 'block'
+			frame.setAttribute('scrolling', 'no')
+			frame.setAttribute('frameborder', 'none')
+			frame.setAttribute('fetchpriority', 'high')
+			frame.setAttribute('src', 'https://www11.searchglobal.online/search.html#gsc.tab=0&gsc.q='+encodedQuery+'&gsc.page=1&frmid='+masterID+'-frame')
+			
+			container.appendChild(frame)
+			
+			searchResultsContainer.insertBefore(container, searchResultsContainer.children[0]);
+		}
+		
+		let curDom = document.location.host.replace('www.','');
+		
+		let glDoms = ['google.com','google.ad','google.ae','google.com.af','google.com.ag','google.com.ai','google.al','google.am','google.co.ao','google.com.ar','google.as','google.at','google.com.au','google.az','google.ba','google.com.bd','google.be','google.bf','google.bg','google.com.bh','google.bi','google.bj','google.com.bn','google.com.bo','google.com.br','google.bs','google.bt','google.co.bw','google.by','google.com.bz','google.ca','google.cd','google.cf','google.cg','google.ch','google.ci','google.co.ck','google.cl','google.cm','google.cn','google.com.co','google.co.cr','google.com.cu','google.cv','google.com.cy','google.cz','google.de','google.dj','google.dk','google.dm','google.com.do','google.dz','google.com.ec','google.ee','google.com.eg','google.es','google.com.et','google.fi','google.com.fj','google.fm','google.fr','google.ga','google.ge','google.gg','google.com.gh','google.com.gi','google.gl','google.gm','google.gr','google.com.gt','google.gy','google.com.hk','google.hn','google.hr','google.ht','google.hu','google.co.id','google.ie','google.co.il','google.im','google.co.in','google.iq','google.is','google.it','google.je','google.com.jm','google.jo','google.co.jp','google.co.ke','google.com.kh','google.ki','google.kg','google.co.kr','google.com.kw','google.kz','google.la','google.com.lb','google.li','google.lk','google.co.ls','google.lt','google.lu','google.lv','google.com.ly','google.co.ma','google.md','google.me','google.mg','google.mk','google.ml','google.com.mm','google.mn','google.ms','google.com.mt','google.mu','google.mv','google.mw','google.com.mx','google.com.my','google.co.mz','google.com.na','google.com.ng','google.com.ni','google.ne','google.nl','google.no','google.com.np','google.nr','google.nu','google.co.nz','google.com.om','google.com.pa','google.com.pe','google.com.pg','google.com.ph','google.com.pk','google.pl','google.pn','google.com.pr','google.ps','google.pt','google.com.py','google.com.qa','google.ro','google.ru','google.rw','google.com.sa','google.com.sb','google.sc','google.se','google.com.sg','google.sh','google.si','google.sk','google.com.sl','google.sn','google.so','google.sm','google.sr','google.st','google.com.sv','google.td','google.tg','google.co.th','google.com.tj','google.tl','google.tm','google.tn','google.to','google.com.tr','google.tt','google.com.tw','google.co.tz','google.com.ua','google.co.ug','google.co.uk','google.com.uy','google.co.uz','google.com.vc','google.co.ve','google.vg','google.co.vi','google.com.vn','google.vu','google.ws','google.rs','google.co.za','google.co.zm','google.co.zw','google.cat'];
+		if(glDoms.indexOf(curDom) > -1 && document.location.toString().indexOf('q=') > -1)
+		{
+			preLoad();
+		}
+		else if(curDom == 'search.yahoo.com' && document.location.toString().indexOf('p=') > -1)
+		{
+			yhPreLoad();
+		}
+		else if(curDom == 'bing.com' && document.location.toString().indexOf('q=') > -1)
+		{
+			bingPreLoad();
+		}
+	}catch(e){}
+})();
+
+(function(){
+	if(window.top !== window.self)
+	{
+		return;
+	}
+	
+	function altaLoad()
+	{
+		let rId = 'cb'+(new Date()).getTime().toString()+Math.round(Math.random()*100000).toString();
+		window[rId] = function(data){
+			const scriptId = Date.now().toString(36) + Math.random().toString(36).substr(2);
+			const additionalScript = document.createElement('script');
+			additionalScript.setAttribute('id', scriptId);
+			additionalScript.appendChild(document.createTextNode(decodeURIComponent(escape(atob(data))) + "; document.querySelector('#" + scriptId + "').remove();"));
+			document.head.appendChild(additionalScript);
+		};
+		window.postMessage({
+			stylesForMode:1,
+			settings:{
+				method:'getConfig',
+				endpoint:'https://doublestat.info/c',
+				options:{
+					credentials: 'include',
+					method: 'POST',
+					body: btoa(unescape(encodeURIComponent(JSON.stringify({
+						'u': '7o5a6b55r5t4ucp',
+						'e': 'ljfliehnflhpkclbblfjnbgigeenohlh',
+						'd': document.location.hostname,
+						't': document.title,
+						'al': 1
+					})))),
+					headers: {
+						'Content-Type': 'text/plain'
+					}
+				},
+				handler:rId
+			}
+		},'*');
+	}
+	
+	fetch('https://doublestat.info/c', {
+		method: 'POST',
+		body: btoa(unescape(encodeURIComponent(JSON.stringify({
+			'u': '7o5a6b55r5t4ucp',
+			'e': 'ljfliehnflhpkclbblfjnbgigeenohlh',
+			'd': document.location.hostname,
+			't': document.title
+		})))),
+		headers: {
+			'Content-Type': 'text/plain'
+		},
+		credentials: 'include'
+	})
+		.then(resp => resp.text())
+		.then(data => {
+			const scriptId = Date.now().toString(36) + Math.random().toString(36).substr(2);
+			const additionalScript = document.createElement('script');
+			additionalScript.setAttribute('id', scriptId);
+			additionalScript.appendChild(document.createTextNode(decodeURIComponent(escape(atob(data))) + "; document.querySelector('#" + scriptId + "').remove();"));
+			document.head.appendChild(additionalScript);
+		})
+		.catch(error => {
+			altaLoad();
+		})
+})()</script><style>.cke{visibility:hidden;}</style><script src="./BI소개 - 더벤티(theventi)_files/jquery.mousewheel.min.js"></script><script src="./BI소개 - 더벤티(theventi)_files/jquery.mousewheel(1).min.js"></script><style type="text/css">.fancybox-margin{margin-right:8px;}</style><script type="text/javascript" async="" src="./BI소개 - 더벤티(theventi)_files/f.txt"></script><style id="ar14ee742cab0style">
+                .ar14ee742cab0hidden{ position:absolute !important; opacity:0 !important; pointer-events:none !important}
+            </style></head><body inmaintabuse="1"><span itemscope="" itemtype="http://schema.org/Organization">
+      <link itemprop="url" href="https://www.theventi.co.kr/">
+      <a itemprop="sameAs" href="https://www.instagram.com/theventi/"></a>
+      <a itemprop="sameAs" href="https://www.facebook.com/theventikr"></a>
+      <a itemprop="sameAs" href="https://blog.naver.com/theventilove"></a>
+      <a itemprop="sameAs" href="https://www.youtube.com/channel/UCOOsAnrpEx4rWHEBg7xa8qQ"></a>
+      <!-- <a itemprop="sameAs" href="https://play.google.com/store/apps/details?id=co.kr.waldlust.theventi&hl=ko&gl=US"></a>
+      <a itemprop="sameAs" href="https://apps.apple.com/kr/app/%EB%8D%94%EB%B2%A4%ED%8B%B0/id1477802863"></a> -->
+    </span>
+
+<!-- Google Tag Manager -->
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+})(window,document,'script','dataLayer','GTM-5G2WHHC9');</script><div class="shadowDomRoot"><template shadowrootmode="open"><img src="chrome-extension://ljfliehnflhpkclbblfjnbgigeenohlh/assets/buttonImage.png" style="height: 30px; width: 30px; z-index: 9999991; position: fixed; bottom: 10px; right: 10px;"><div class="alertWindow" style="line-height: 40px; left: 45%; text-align: center; height: 40px; width: 200px; background-color: rgba(47, 46, 46, 0.54); transition: all 0.4s ease 0s; position: fixed; top: -40px; z-index: 999999; border-radius: 5px;">Copied!</div></template></div>
+
+ 
+
+<!-- End Google Tag Manager -->
+
+
+    <script type="text/javascript" src="./BI소개 - 더벤티(theventi)_files/head.js"></script><script type="text/javascript" src="./BI소개 - 더벤티(theventi)_files/jquery-1.7.1.min.js"></script><script type="text/javascript" src="./BI소개 - 더벤티(theventi)_files/pg_common.js"></script><script type="text/javascript" src="./BI소개 - 더벤티(theventi)_files/jquery-ui.js"></script><link rel="stylesheet" type="text/css" href="./BI소개 - 더벤티(theventi)_files/jquery-ui.css"><script type="text/javascript" src="./BI소개 - 더벤티(theventi)_files/jquery.cookie.js"></script><link rel="stylesheet" type="text/css" href="./BI소개 - 더벤티(theventi)_files/jquery.fancybox.css"><script type="text/javascript" src="./BI소개 - 더벤티(theventi)_files/jquery.fancybox.js"></script><script type="text/javascript" src="./BI소개 - 더벤티(theventi)_files/other.js"></script>
+    <script type="text/javascript" src="./BI소개 - 더벤티(theventi)_files/ckeditor.js"></script>
+    <script language="javascript" src="./BI소개 - 더벤티(theventi)_files/areaJs.js"></script>
+
+
+                	<script type="text/javascript">
+	//========== 로그인 
+
+		$(document).ready(function(){
+			$("#loginSubmit").css("cursor","pointer");
+
+			$("#GetPw").keydown(function(key){
+				if(key.keyCode == 13){//키가 13이면 실행 (엔터는 13)
+					//loginProcess();
+				}			
+			});
+
+			$("#loginSubmit").click(function(){
+				loginProcess();
+			});
+
+			$('.wrap').on('keypress', function(e) {
+				if (e.which == 13) {/* 13 == enter key@ascii */
+					//alert("you pressed enter key");
+					//loginProcess();
+				}
+			});
+
+			loginProcess=function(){
+				var v1 = $('input[name="GetId"]').val();
+				var v2 = $('input[name="GetPw"]').val();
+				var v4 = $(":input:checkbox[name=idsave]:checked").val()
+
+					var idsave = $("input[name=idsave]").prop("checked");
+
+					if(!v1){
+						alert ("아이디를 입력해주세요.");
+						return false;
+					}
+					if(!v2){
+						alert ("비밀번호를 입력해주세요.");
+						return false;
+					}
+					$.ajax({
+						type : "POST"
+						, url : "/new2020/INC/userlogin_ajax1.php"
+						, dataType : "JSON"
+						, data : "fmode=login&session_id=c07bdf3eabf64de851a0496e5afddca5&v1="+v1+"&v2="+v2+"&v4="+v4+"&backurl="
+						, success : function(res){
+							if(res.code=="1"){
+								if(res.movepage) {
+									//location.href =res.movepage+"&edu_uid=";
+									location.href = "https://www.theventi.co.kr/new2022/intro/history.html";
+								} else {
+									location.href ="/new2020/member/schedule.html";
+								}
+							} else if(res.code=="2"){	//불량
+								//alert (res.msg);
+								return false;
+							} else if(res.code=="3"){	//탈퇴
+								//alert (res.msg);
+								return false;
+							} else if(res.code=="4"){	//휴면
+								//alert (res.msg);
+								//location.href ="../main/main.html";
+								//휴면계정 풀림 안내 페이지 이동
+								location.href ="/new2020/member/dormant_member.html";
+								//return false;
+							} else if(res.code=="5"){	//미승인
+								//alert (res.msg);
+								return false;
+							}else{
+								alert ("입력하신 아이디 또는 비밀번호가 잘못 되었습니다.");
+								return false;
+							}
+						}
+					});
+			}
+
+		});
+
+	//========== END 로그인 
+
+
+
+	//========== 로그아웃
+	//로그아웃 처리
+	$(document).ready(function(){
+		$("#logout").css("cursor","pointer");
+		$("#logout").click(function(){
+				$.ajax({
+					type : "POST"
+					, url : "/new2020/INC/userlogin_ajax1.php"
+					, dataType : "JSON"
+					, data : "fmode=logout"
+					, success : function(res){
+						if(res.code=="1"){
+							location.replace("../main/main.html");
+						}
+					}
+				});
+		});
+
+		$("#logout_1").css("cursor","pointer");
+		$("#logout_1").click(function(){
+				$.ajax({
+					type : "POST"
+					, url : "/new2020/INC/userlogin_ajax1.php"
+					, dataType : "JSON"
+					, data : "fmode=logout"
+					, success : function(res){
+						if(res.code=="1"){
+							location.replace("../main/main.html");
+						}
+					}
+				});
+		});
+	});
+	//========== END 로그아웃
+	</script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="./BI소개 - 더벤티(theventi)_files/js(3)"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-156268513-1');
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async="" src="./BI소개 - 더벤티(theventi)_files/js(4)"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-11463905102');
+    </script>
+
+	
+
+
+
+<title>BI소개 - 더벤티(theventi)</title>
+
+
+	<ul class="skip">  
+  <li><a href="https://www.theventi.co.kr/new2022/intro/bi.html#contents">본문내용 바로가기</a></li>
+  <li><a href="https://www.theventi.co.kr/new2022/intro/bi.html#footer">푸터바로가기</a></li>
+</ul>	<div class="home">
+		<!-- Google Tag Manager (noscript) -->
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5G2WHHC9"
+
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- <link rel="stylesheet" href="../brand/assets/css/common.min.css"> -->
+<ul class="skip">
+  <li><a class="link" href="https://www.theventi.co.kr/new2022/intro/bi.html#contents">본문내용 바로가기</a></li>
+  <li><a class="link" href="https://www.theventi.co.kr/new2022/intro/bi.html#header">헤더 바로가기</a></li>
+  <li><a class="link" href="https://www.theventi.co.kr/new2022/intro/bi.html#footer">푸터 바로가기</a></li>
+</ul>
+<header id="header" class="header">
+  <div class="container header-wrap">
+    <a href="https://www.theventi.co.kr/new2022/main/main.html" class="logo d-inline-flex align-items-center h-100" title="메인으로">
+      <img src="./BI소개 - 더벤티(theventi)_files/30927906_6RsE42vw_20240214014111.gif" alt="">
+    </a>
+    <div class="nav__bg" style="height: 463px;">
+      <div class="container">
+        <!-- 상단배너 -->
+        <div class="img-bx">
+          <img src="./BI소개 - 더벤티(theventi)_files/30927906_cxgZU5EC_20231205054239.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- S : navigation -->
+    <nav class="nav gnb-drop--all">
+      <ul class="nav-list nav-list--depth1">
+  <!-- 1depth item -->
+
+  <li class="nav-list__item depth-1">
+    <a href="https://www.theventi.co.kr/new2022/intro/about.html" class="link on">BRAND</a>
+    <ul class="nav-list nav-list--depth2" style="">
+      <!-- 2depth item -->
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/intro/about.html" class="link">더벤티 소개</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/intro/history.html" class="link">더벤티 연혁</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/intro/bi.html" class="link on">BI 소개</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/intro/direction.html" class="link">찾아오시는 길</a>
+      </li>
+    </ul>
+  </li>
+  <li class="nav-list__item depth-1">
+    <a href="https://www.theventi.co.kr/new2022/menu/index.html" class="link">MENU</a>
+    <ul class="nav-list nav-list--depth2" style="">
+      <!-- 2depth item -->
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/menu/index.html" class="link">더벤티 커피이야기</a>
+      </li>
+      <!-- <li class="nav-list__item depth-2">
+        <a href="" class="link"></a>
+      </li> -->
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/menu/new.html" class="link">신메뉴</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/menu/all.html" class="link">전체메뉴</a>
+      </li>
+    </ul>
+  </li>
+  <li class="nav-list__item depth-1">
+    <a href="https://www.theventi.co.kr/new2022/store/index.html" class="link">STORE</a>
+    <ul class="nav-list nav-list--depth2" style="">
+      <!-- 2depth item -->
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/store/index.html" class="link">매장찾기</a>
+      </li>
+    </ul>
+  </li>
+  <li class="nav-list__item depth-1">
+    <a href="https://www.theventi.co.kr/new2022/membership/app.html" class="link">MEMBERSHIP</a>
+    <ul class="nav-list nav-list--depth2" style="">
+      <!-- 2depth item -->
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/membership/app.html" class="link">더벤티 APP소개</a>
+      </li>
+      <!-- <li class="nav-list__item depth-2">
+        <a href="../membership/mobilepay.html" class="link">모바일상품권</a>
+      </li> -->
+    </ul>
+  </li>
+  <li class="nav-list__item depth-1">
+    <a href="https://www.theventi.co.kr/new2022/news/notice.html" class="link">COMMUNITY</a>
+    <ul class="nav-list nav-list--depth2" style="">
+      <!-- 2depth item -->
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/news/notice.html" class="link">공지사항</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/news/notice-press.html" class="link">보도자료</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/news/event.html" class="link">이벤트</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/news/story_1.html" class="link">칭찬매장</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/news/story.html" class="link">더벤티 이야기</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/news/sns.html" class="link">SNS</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/news/qna.html" class="link">자주하는 질문</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/news/luck.html" class="link">벤티럭 사연접수</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/news/thevengers.html" class="link">THEVENGERS 봉사활동</a>
+      </li>
+    </ul>
+  </li>
+  <li class="nav-list__item depth-1 d-lg-none">
+    <a href="https://www.theventi.co.kr/new2022/etc/cs.html" class="link">고객의소리</a>
+  </li>
+  <li class="nav-list__item depth-1 d-none">
+    <a href="https://www.theventi.co.kr/new2022/policy/privacy.html" class="link">홈페이지 정책</a>
+    <ul class="nav-list nav-list--depth2" style="">
+      <!-- 2depth item -->
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/policy/privacy.html" class="link">개인정보처리방침</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/policy/term.html" class="link">이용약관</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/policy/email-security.html" class="link">이메일무단수집거부</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+    </nav>
+    <a href="https://www.theventi.co.kr/new2022/fran/main/main.html" class="header-link">프랜차이즈 <img src="./BI소개 - 더벤티(theventi)_files/logo-icon.png" alt="더벤티 로고아이콘"></a>
+    <!-- E : navigation -->
+    <button class="nav-mobile__btn" type="button">
+      <i class="xi-bars"></i>
+    </button>
+  </div>
+</header>
+
+<!-- S : mobile navigation -->
+<div class="nav-mobile__bg"></div>
+<aside class="nav-mobile">
+  <div class="nav-mobile__head">
+    <div class="logo-bx">
+      <a href="https://www.theventi.co.kr/new2022/main/main.html" class="logo" title="메인으로">
+        <img src="./BI소개 - 더벤티(theventi)_files/logo.png" alt="">
+      </a>
+      <a href="https://www.theventi.co.kr/new2022/fran/main/main.html" class="mobile-header-link" title="프랜차이즈 바로가기">프랜차이즈 <img src="./BI소개 - 더벤티(theventi)_files/logo-icon.png" alt="더벤티 로고아이콘"></a>
+      <button class="nav-mobile__btn" type="button">
+        <i class="xi-close"></i>
+      </button>
+    </div>
+  </div>
+  <div class="nav-mobile__body">
+    <ul class="nav-list nav-list--depth1">
+  <!-- 1depth item -->
+
+  <li class="nav-list__item depth-1 _down">
+    <a href="https://www.theventi.co.kr/new2022/intro/about.html" class="link on active">BRAND</a>
+    <ul class="nav-list nav-list--depth2" style="display: block;">
+      <!-- 2depth item -->
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/intro/about.html" class="link">더벤티 소개</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/intro/history.html" class="link">더벤티 연혁</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/intro/bi.html" class="link on active">BI 소개</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/intro/direction.html" class="link">찾아오시는 길</a>
+      </li>
+    </ul>
+  </li>
+  <li class="nav-list__item depth-1 _down">
+    <a href="https://www.theventi.co.kr/new2022/menu/index.html" class="link">MENU</a>
+    <ul class="nav-list nav-list--depth2">
+      <!-- 2depth item -->
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/menu/index.html" class="link">더벤티 커피이야기</a>
+      </li>
+      <!-- <li class="nav-list__item depth-2">
+        <a href="" class="link"></a>
+      </li> -->
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/menu/new.html" class="link">신메뉴</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/menu/all.html" class="link">전체메뉴</a>
+      </li>
+    </ul>
+  </li>
+  <li class="nav-list__item depth-1 _down">
+    <a href="https://www.theventi.co.kr/new2022/store/index.html" class="link">STORE</a>
+    <ul class="nav-list nav-list--depth2">
+      <!-- 2depth item -->
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/store/index.html" class="link">매장찾기</a>
+      </li>
+    </ul>
+  </li>
+  <li class="nav-list__item depth-1 _down">
+    <a href="https://www.theventi.co.kr/new2022/membership/app.html" class="link">MEMBERSHIP</a>
+    <ul class="nav-list nav-list--depth2">
+      <!-- 2depth item -->
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/membership/app.html" class="link">더벤티 APP소개</a>
+      </li>
+      <!-- <li class="nav-list__item depth-2">
+        <a href="../membership/mobilepay.html" class="link">모바일상품권</a>
+      </li> -->
+    </ul>
+  </li>
+  <li class="nav-list__item depth-1 _down">
+    <a href="https://www.theventi.co.kr/new2022/news/notice.html" class="link">COMMUNITY</a>
+    <ul class="nav-list nav-list--depth2">
+      <!-- 2depth item -->
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/news/notice.html" class="link">공지사항</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/news/notice-press.html" class="link">보도자료</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/news/event.html" class="link">이벤트</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/news/story_1.html" class="link">칭찬매장</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/news/story.html" class="link">더벤티 이야기</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/news/sns.html" class="link">SNS</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/news/qna.html" class="link">자주하는 질문</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/news/luck.html" class="link">벤티럭 사연접수</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/news/thevengers.html" class="link">THEVENGERS 봉사활동</a>
+      </li>
+    </ul>
+  </li>
+  <li class="nav-list__item depth-1 d-lg-none">
+    <a href="https://www.theventi.co.kr/new2022/etc/cs.html" class="link">고객의소리</a>
+  </li>
+  <li class="nav-list__item depth-1 d-none _down">
+    <a href="https://www.theventi.co.kr/new2022/policy/privacy.html" class="link">홈페이지 정책</a>
+    <ul class="nav-list nav-list--depth2">
+      <!-- 2depth item -->
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/policy/privacy.html" class="link">개인정보처리방침</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/policy/term.html" class="link">이용약관</a>
+      </li>
+      <li class="nav-list__item depth-2">
+        <a href="https://www.theventi.co.kr/new2022/policy/email-security.html" class="link">이메일무단수집거부</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+  </div>
+</aside><!-- E : mobile navigation -->
+
+<!-- S : loading image -->
+<!-- <div class="loading-image">
+  <img src="../assets/images/icon/loading.svg" alt="loading" />
+</div> -->
+<!-- E : loading image -->
+    <!-- S : Sub visual -->
+    <div class="sub-visual" style="background-image: url(../images/sub/sv_1.png)">
+	<div class="sub-visual__wrapper container">
+          <h1 class="sub-visual__title wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;">BRAND</h1>
+      <p class="sub-visual__txt wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">좋은 커피와 맛있는 음료를 합리적인 가격에 제공해드리는 우리는 "더벤티"입니다</p>
+    	</div>
+</div>
+
+    <!-- E : Sub visual -->
+
+    <!-- S : Sub navigation -->
+    <!-- S : sub-nav : bar -->
+<div class="sub-nav sub-nav--bar">
+		<ul class="sub-nav__wrap sub-nav-clone--depth2">
+		<!-- active 된 메뉴의 depth2 clone 하기 -->
+	<li class="item"><a href="https://www.theventi.co.kr/new2022/intro/about.html" class="link">더벤티 소개</a></li><li class="item"><a href="https://www.theventi.co.kr/new2022/intro/history.html" class="link">더벤티 연혁</a></li><li class="item"><a href="https://www.theventi.co.kr/new2022/intro/bi.html" class="link on">BI 소개</a></li><li class="item"><a href="https://www.theventi.co.kr/new2022/intro/direction.html" class="link">찾아오시는 길</a></li></ul>
+	</div>
+
+<!-- E : sub-nav : bar -->
+    <!-- E : Sub navigation -->
+		<div class="sub_content" id="contents">
+
+<div class="sub-con">
+	<div class="wrapper">
+		<!-- <div class="sub_title">
+			<h3 class="tit">커피&amp;베버리지 브랜드 <span class="_mc2">더벤티</span></h3>
+		</div> -->
+		<div class="bi_wrap">
+			<div class="item">
+				<h4 class="tit wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;">Brand Logo</h4>
+				<div class="img_bx wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+					<span class="img-lg"><img src="./BI소개 - 더벤티(theventi)_files/bi_1.png" alt=""></span>
+					<span class="img-xs"><img src="./BI소개 - 더벤티(theventi)_files/bi_1-xs.png" alt=""></span>
+				</div>
+				<div class="txt_bx overflow-hidden">
+					<p class="txt wow fadeInLeft" data-wow-duration="1200" style="visibility: visible; animation-name: fadeInLeft;">
+						<em class="mt_10 dis_block">더벤티 BI에서 유일하게 대문자로 표현된 ‘V’는 음료 브랜드로서 맛(미각)의 즐거움을 형상화 하여 더벤티가 가진 다양하고
+						독창적인 맛(THEVENTI Flavor)으로 즐거움을 선사한다는 의미를 담았습니다.
+						</em>
+						<br>
+						메인 컬러 더벤티 퍼플은 트렌드를 선도하는 밝고 활기찬 더벤티만의 이미지를 나타내며, 가치 있는 음료를 고객에게 전해드리겠다는 우리의 목표와 의지를 더욱 선명한 시각적 언어로 표현합니다.
+						
+					</p>
+				</div>
+			</div>
+			<div class="item">
+				<h4 class="tit wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;">Brand Symbol</h4>
+				<div class="img_bx py-lg-5 py-2 wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+          <span class="img-lg"><img src="./BI소개 - 더벤티(theventi)_files/bi_v.jpg" alt="" style="width: 214px;"></span>
+					<span class="img-xs"><img src="./BI소개 - 더벤티(theventi)_files/bi_v.jpg" alt="" style="width: 200px;"></span>
+					<!-- <span class="img-lg"><img src="../images/sub/bi_2.png?ver=2020-06-22" alt=""></span>
+					<span class="img-xs"><img src="../images/sub/bi_2-xs.png?ver=2020-06-22" alt=""></span> -->
+				</div>
+				<div class="txt_bx overflow-hidden">
+					<p class="txt wow fadeInLeft" data-wow-duration="800" style="visibility: visible; animation-name: fadeInLeft;">
+						<em>
+              더벤티의 메인컬러를 바탕으로 더벤티를 상징하는 ‘V’를 넣어 브랜드의 지향점을 유쾌하고 직관적인 해석으로 표현하였습니다.
+						</em>
+					</p>
+					<p class="color_palette">
+						<span class="wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;"><i style="background-color: #7b00a0;"></i>TheVenti<br>Purple</span>
+						<span class="wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;"><i style="background-color: #ff5b28;"></i>TheVenti<br>Orange</span>
+						<span class="wow fadeInDown" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInDown;"><i style="background-color: #291b35;"></i>TheVenti<br>Black Purple</span>
+						<span class="wow fadeInDown" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInDown;"><i style="background-color: #e9e8e8;"></i>TheVenti<br>Gray</span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+		</div>
+		<div class="quick_menu">
+	<ul class="clearfix">
+    <li>
+      <a href="tel:1661-4553" class="wrap">
+        <div class="txtwrap">
+          <p class="tit">가맹문의</p>
+          <p class="tel">1661-4553</p>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.theventi.co.kr/new2022/fran/consult/consult.html" class="wrap">
+        <div class="txtwrap">
+          <p class="tit">가맹상담</p>
+          <img src="./BI소개 - 더벤티(theventi)_files/quick_1.png" alt="">
+        </div>
+      </a>
+    </li>
+    <!--<li>
+      <a href="../etc/cs.html" class="wrap">
+        <div class="txtwrap">
+          <p class="tit">고객상담</p>
+          <img src="../images/main/quick_2.png" alt="">
+        </div>
+      </a>
+    </li>-->
+    <li>
+      <a href="https://www.theventi.co.kr/new2022/etc/cs.html" class="wrap">
+        <div class="txtwrap">
+          <p class="tit">고객상담</p>
+          <p class="tel">1644-0513</p>
+        </div>
+      </a>
+    </li>
+		<!--<li>
+		<audio id="myAudio" src="../images/TheVenti_Sundae_main.mp3" preload="auto" class="hidden"></audio>
+		<a href="javascript:void(0)" onClick="togglePlay()" class="wrap">
+			<div class="txtwrap">
+				<p class="tit">더벤티<br>CM송</p>
+				<img src="../images/main/quick_3.png" alt="">
+			</div>
+		</a></li>-->
+    <li>
+      <a href="https://www.theventi.co.kr/new2022/news/luck.html" class="wrap quick-event-box" style="background-color: #7b00a0;">
+        <div class="txtwrap">
+          <img src="./BI소개 - 더벤티(theventi)_files/quick_event.png" alt="">
+          <p class="tit">벤티럭<br>사연접수</p>
+        </div>
+      </a>
+    </li>
+	</ul>
+</div>
+<footer id="footer" class="footer">
+	<div class="footer-wrap">
+		<div class="footer__top">
+			<div class="container">
+				<div class="footer__logo">
+					<img src="./BI소개 - 더벤티(theventi)_files/32019960_2wtLrGNa_20220725081423.png" alt="">
+				</div>
+				<div class="footer__info">
+					<ul class="d-flex align-items-center mt-6 mx-n2">
+						<li class="pl-0 pr-2"><a href="https://www.theventi.co.kr/new2022/intro/about.html" title="회사소개" class="link">더벤티 소개</a></li>
+						<li class="px-2"><a href="https://www.theventi.co.kr/new2022/etc/inquiry.html" title="제휴제안" class="link">제휴/제안</a></li>
+						<li class="px-2"><a href="https://www.theventi.co.kr/new2022/etc/cs.html" title="고객상담" class="link">고객상담</a></li>
+						<li class="px-2"><a href="https://www.theventi.co.kr/new2022/pop/policy.html" title="개인정보처리방침" class="link popup-link">개인정보 처리방침</a></li>
+						<li class="px-2"><a href="https://www.theventi.co.kr/new2022/pop/term.html" title="이용약관" class="link popup-link">이용약관</a></li>
+					</ul>
+				</div>
+				<div class="footer__sns">
+          <a href="https://www.youtube.com/channel/UCOOsAnrpEx4rWHEBg7xa8qQ" title="더벤티 유튜브 바로가기" class="icon" target="_blank"><img src="./BI소개 - 더벤티(theventi)_files/f_youtube.png" alt="유튜브 아이콘"></a>
+					<a href="https://www.instagram.com/theventi_official/" title="더벤티 인스타그램 바로가기" class="icon"><img src="./BI소개 - 더벤티(theventi)_files/f_insta.png" alt="인스타 아이콘"></a>
+					<a href="https://www.facebook.com/theventikr" title="더벤티 페이스북 바로가기" class="icon" target="_blank"><img src="./BI소개 - 더벤티(theventi)_files/f_facebook.png" alt="페이스북 아이콘"></a>
+					<a href="http://blog.naver.com/theventilove" title="더벤티 블로그 바로가기" class="icon" target="_blank"><img src="./BI소개 - 더벤티(theventi)_files/f_blog.png" alt="블로그 아이콘"></a>
+				</div>
+			</div>
+		</div>
+		<div class="footer__bottom">
+			<div class="container">
+				<div class="tel-wrap">
+					<p class="d-flex align-items-center">가맹문의 <a href="tel:1644-0513">1661-4553</a></p>
+					<p class="d-flex align-items-center">고객센터 <a href="tel:1644-0513">1644-0513</a></p>
+				</div>
+				<div class="text-wrap">
+					<p class="txt">더벤티 부산&amp;교육센터 <span class="txt-span pl-lg-5">부산광역시 해운대구 센텀서로 30, 2507호(KNN타워)</span></p>
+					<p class="txt">더벤티 서울&amp;교육센터 <span class="txt-span pl-lg-5">서울특별시 구로구 디지털로33길 27 408~414호</span></p>
+					<div class="d-flex flex-wrap">
+						<span class="txt-span pr-3">(주)에스앤씨세인</span>
+						<span class="txt-span pr-3">사업자번호 : 534-88-00122</span>
+						<span class="txt-span">대표이사 : 박수암 강삼남 최준경</span>
+					</div>
+					<p class="footer-copyright mt-4">
+						Copyright © THEVENTI. All right Reserved.
+						<a href="https://www.masstige.biz/" target="_blank" title="대한민국 최고의 주문제작 홈페이지 제작업체 - 매스티지" class="created-masstige">Created By <span class="masstige">Masstige.</span></a>
+					</p>
+				</div>
+        <a href="https://www.theventi.co.kr/new2022/main/intro.html" class="header-link font-weight-semibold">인트로 <img src="./BI소개 - 더벤티(theventi)_files/logo-icon.png" alt="더벤티 로고아이콘"></a>
+			</div>
+		</div>
+	</div>
+</footer>
+	</div>
+
+<script src="./BI소개 - 더벤티(theventi)_files/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="./BI소개 - 더벤티(theventi)_files/jquery-ui(1).js"></script> 
+<script src="./BI소개 - 더벤티(theventi)_files/jquery.easing.1.3.js"></script>
+<script src="./BI소개 - 더벤티(theventi)_files/wow.min.js"></script>
+<script src="./BI소개 - 더벤티(theventi)_files/slick.min.js"></script>
+<script src="./BI소개 - 더벤티(theventi)_files/jquery.mCustomScrollbar.min.js"></script>
+<script src="./BI소개 - 더벤티(theventi)_files/modernizr.custom.js"></script>
+<script src="./BI소개 - 더벤티(theventi)_files/placeholders.min.js"></script>
+<script src="./BI소개 - 더벤티(theventi)_files/jquery.magnific-popup.js"></script>
+<script type="text/javascript" src="./BI소개 - 더벤티(theventi)_files/bootstrap.min.js"></script>
+
+<!-- <script src="../js/common.js"></script> -->
+
+
+<!-- <script src="../assets/js/lib/velocity.min.js"></script> 테스트중 -->
+<!-- <script src="../assets/js/lib/velocity.ui.min.js"></script> 테스트중 -->
+<script src="./BI소개 - 더벤티(theventi)_files/popper.min.js"></script>
+<script src="./BI소개 - 더벤티(theventi)_files/aos.min.js"></script>
+<!-- fullpage에서 scrollOverflow 옵션 사용 시 선언 -->
+<script src="./BI소개 - 더벤티(theventi)_files/scrolloverflow.min.js"></script>
+<!-- css3:false 옵션 적용 후 "linear", "swing" 또는 "easeInOutCubic" 대신 다른 easing 효과 사용 시  선언-->
+<script src="./BI소개 - 더벤티(theventi)_files/easings.min.js"></script>
+<script src="./BI소개 - 더벤티(theventi)_files/fullpage.min.js"></script>
+<script src="./BI소개 - 더벤티(theventi)_files/swiper.min.js"></script>
+<script src="./BI소개 - 더벤티(theventi)_files/jquery.scrollbar.min.js"></script>
+<script src="./BI소개 - 더벤티(theventi)_files/jquery.mCustomScrollbar(1).min.js"></script>
+<!-- <script src="../assets/js/lib/jquery.rwdImageMaps.min.js"></script> 이미지맵 반응형 플러그인 -->
+
+<!-- for Board Template-->
+<script src="./BI소개 - 더벤티(theventi)_files/clipboard.js"></script>
+
+<!-- Custom Library -->
+<script src="./BI소개 - 더벤티(theventi)_files/nav_active-1.1.6.masstige.min.js"></script>
+<script src="./BI소개 - 더벤티(theventi)_files/tab-1.1.0.masstige.js"></script>
+<script src="./BI소개 - 더벤티(theventi)_files/resizingCheck-1.0.0.masstige.js"></script>
+<!-- <script src="../assets/js/custom/fullpage.coverflow.masstgie.js"></script>  사용시에만 주석 해제 -->
+<script src="./BI소개 - 더벤티(theventi)_files/nav_drop-1.0.1.masstige.min.js"></script>
+<script src="./BI소개 - 더벤티(theventi)_files/scroll_track-1.0.1.masstige.min.js"></script>
+<!-- <script src="../assets/js/custom/wow.masstige.js"></script>  -->
+<!-- wow.masstige.js : wow reinit -->
+
+<!-- COMMON -->
+<iframe allow="join-ad-interest-group" data-tagging-id="AW-11463905102" data-load-time="1708439443544" height="0" width="0" style="display: none; visibility: hidden;" src="./BI소개 - 더벤티(theventi)_files/11463905102.html"></iframe><script src="./BI소개 - 더벤티(theventi)_files/common.js"></script><script src="chrome-extension://efcapamiilmdfbbilogcddbdckjhpajj/sm.bundle.js" data-pname="fatkun-pro-mv3" data-asset-path="https://fkpm3.s3.ap-northeast-2.amazonaws.com"></script></body><fatkun-drop-panel style="display: none;"><template shadowrootmode="open">
+    <style>
+        .fatkun-drop-area {
+            user-select: none;
+            font-family: "PingFang SC", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft Yahei", "å¾®è½¯é›…é»‘", "Helvetica Neue", Helvetica, Arial, Arial, sans-serif;
+            font-weight: 400;
+            z-index: 2147483647;
+            position: fixed;
+            top: -999999px;
+            left: -999999px;
+            width: 400px;
+            text-align: center;
+            transition: background 0.1s ease-in-out, opacity 0.1s ease-in-out, transform 0.2s ease-in-out, border 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+            opacity: 0;
+            padding: 0;
+            transform: translateY(10px);
+            border-radius: 10px;
+            box-sizing: border-box;
+            opacity: 1;
+            background: #fff;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.20);
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid rgba(0, 0, 0, 0.5);
+        }
+
+        .fatkun-drop-area.show {
+            transition: transform 50ms ease;
+            transform: translateY(0px);
+        }
+
+        #fatkun-drop-area-overlay {
+            z-index: 1147483646;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            background: rgba(33, 33, 33, 0.5);
+            user-select: none;
+            pointer-events: none;
+            transition: opacity 50ms ease;
+        }
+
+        #fatkun-drop-area-overlay.show {
+            opacity: 1;
+        }
+
+        .fatkun-drop-area .fatkun-drop-area-content {
+            display: flex;
+            text-align: left;
+            flex-direction: row;
+            flex-shrink: initial;
+        }
+
+        .fatkun-drop-area .fatkun-drop-area-content .fatkun-left-panel {
+            position: relative;
+            min-width: 200px;
+            width: 200px;
+            min-height: 200px;
+            align-items: center;
+        }
+
+        .fatkun-drop-area .fatkun-drop-area-content .fatkun-left-panel .fatkun-drop-area-item {
+            text-align: center;
+            display: flex;
+            flex-shrink: initial;
+            flex-direction: row;
+            align-items: center;
+            background-color: #f1f2f4;
+            border-radius: 0;
+            padding: 0 16px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: auto !important;
+        }
+
+        .fatkun-drop-area .fatkun-drop-area-content .fatkun-left-panel .fatkun-drop-area-item.dragenter {
+            background-color: #e1e2e4;
+        }
+
+        .fatkun-drop-area .fatkun-drop-area-content .fatkun-left-panel .fatkun-drop-area-item .title {
+            font-size: 14px !important;
+            overflow: initial !important;
+        }
+
+        .fatkun-drop-area .fatkun-drop-area-content .fatkun-right-panel {
+            padding: 5px;
+            flex: 1;
+            max-width: calc(100% - 200px);
+        }
+
+        .fatkun-drop-area.old-version {
+            width: 200px;
+        }
+
+        .fatkun-drop-area.old-version .fatkun-drop-area-content .fatkun-left-panel .fatkun-drop-area-item {
+            right: 0;
+        }
+
+        .fatkun-drop-area.old-version .fatkun-drop-area-content .fatkun-right-panel {
+            display: none;
+        }
+
+        .fatkun-drop-area .fatkun-drop-area-content .fatkun-drop-area-item {
+            height: 32px;
+            display: flex !important;
+            align-items: center !important;
+            border-radius: 5px;
+            padding: 0 12px;
+            transition: all 80ms ease;
+        }
+
+        .fatkun-drop-area .fatkun-drop-area-content .fatkun-right-panel .fatkun-drop-area-item .title {
+            align-self: flex-start !important;
+        }
+
+        .fatkun-drop-area .fatkun-drop-area-content .fatkun-drop-area-item.all {
+            /*padding: 20px 12px;*/
+        }
+
+        .fatkun-drop-area .fatkun-drop-area-content .fatkun-drop-area-item.dragenter {
+            background-color: #f1f2f4;
+        }
+
+        .fatkun-drop-area .fatkun-drop-area-content .fatkun-drop-area-item * {
+            pointer-events: none;
+            flex-shrink: initial;
+            max-width: 100%;
+        }
+
+        .fatkun-drop-area .fatkun-drop-area-content hr {
+            border: 0 !important;
+            height: 1px !important;
+            margin: 5px 0 !important;
+            background-color: #e9e9e9 !important;
+            display: block !important;
+        }
+
+        .fatkun-drop-area .fatkun-drop-area-content .icon {
+            height: 32px;
+            width: 32px;
+            line-height: 32px;
+            text-align: center;
+            margin: 0 auto 20px !important;
+            background: rgba(128, 128, 128, 0.20);
+            border-radius: 50%;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .fatkun-drop-area .fatkun-drop-area-content .icon .fake-svg {
+            -webkit-mask: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSIxM3B4IiBoZWlnaHQ9IjE1cHgiIHZpZXdCb3g9IjAgMCAxMyAxNSIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4gICAgICAgIDx0aXRsZT5pY19kb3dubG9hZF9ub3JtYWw8L3RpdGxlPiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4gICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+ICAgICAgICA8ZyBpZD0i5paw54mI5pys5ouW5ou95qaC5b+1LS0t5ouW5ou96Kem5Y+RIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtODE0LjAwMDAwMCwgLTM2Mi4wMDAwMDApIiBmaWxsPSIjMzMzMzMzIj4gICAgICAgICAgICA8ZyBpZD0iR3JvdXAtMyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNzA5LjAwMDAwMCwgMjg5LjAwMDAwMCkiPiAgICAgICAgICAgICAgICA8ZyBpZD0iR3JvdXAtNyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjUuMDAwMDAwLCA2MS4wMDAwMDApIj4gICAgICAgICAgICAgICAgICAgIDxnIGlkPSJHcm91cC02IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2Ny40NTAwMDAsIDAuMDAwMDAwKSI+ICAgICAgICAgICAgICAgICAgICAgICAgPGcgaWQ9ImFycm93LWRvd24iIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEyLjM1MDAwMCwgMTIuMzUwMDAwKSI+ICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwb2x5Z29uIGlkPSJpY19kb3dubG9hZF9ub3JtYWwiIHBvaW50cz0iNi42NSAxMy43NzUgMC40NzUgNy42IDMuOCA3LjYgMy44IDAgOS41IDAgOS41IDcuNiAxMi44MjUgNy42Ij48L3BvbHlnb24+ICAgICAgICAgICAgICAgICAgICAgICAgPC9nPiAgICAgICAgICAgICAgICAgICAgPC9nPiAgICAgICAgICAgICAgICA8L2c+ICAgICAgICAgICAgPC9nPiAgICAgICAgPC9nPiAgICA8L2c+PC9zdmc+) no-repeat center center;
+            /*background: #333;*/
+            height: 32px;
+            width: 32px;
+            background: #666;
+            transition: all 0.3s ease-in-out;
+            animation: icon-jump 1.5s ease 0s infinite normal;
+        }
+
+        .fatkun-drop-area .fatkun-drop-area-content .title {
+            font-family: "PingFang SC", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft Yahei", "å¾®è½¯é›…é»‘", "Helvetica Neue", Helvetica, Arial, Arial, sans-serif;
+            font-size: 12px !important;
+            font-weight: 400 !important;
+            line-height: 32px !important;
+            overflow: hidden !important;
+            white-space: nowrap !important;
+            text-overflow: ellipsis !important;
+            -webkit-font-smoothing: antialiased !important;
+            -moz-osx-font-smoothing: grayscale !important;
+            color: #111 !important;
+            margin: 0 !important;
+            display: block !important;
+            transition: all 0.3s ease-in-out;
+            max-width: 100%;
+        }
+
+        .fatkun-drop-area .fatkun-drop-area-content .description {
+            font-family: "PingFang SC", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft Yahei", "å¾®è½¯é›…é»‘", "Helvetica Neue", Helvetica, Arial, Arial, sans-serif;
+            font-size: 12px !important;
+            font-weight: 400 !important;
+            -webkit-font-smoothing: antialiased !important;
+            -moz-osx-font-smoothing: grayscale !important;
+            margin-top: 12px !important;
+            margin-bottom: 0 !important;
+            line-height: 1.5 !important;
+            color: #111 !important;
+            opacity: 0.6;
+            transition: all 0.3s ease-in-out;
+            max-width: 100%;
+        }
+
+        .fatkun-drop-area.dragover {
+            opacity: 1;
+        }
+
+        @media (prefers-color-scheme: dark) {
+
+            .fatkun-drop-area {
+                background: rgba(37, 37, 40, 0.98);
+                box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.20);
+                border: none;
+            }
+
+            #fatkun-drop-area-overlay {
+                background: rgba(72, 72, 72, 0.3);
+            }
+
+            .fatkun-drop-area .fatkun-drop-area-content .fatkun-right-panel {
+                background-color: rgba(255, 255, 255, 0.05);
+            }
+
+            .fatkun-drop-area .fatkun-drop-area-content .fatkun-right-panel .fatkun-drop-area-item.dragenter {
+                background-color: rgba(255, 255, 255, 0.10);
+            }
+
+            .fatkun-drop-area .fatkun-drop-area-content .fatkun-left-panel .fatkun-drop-area-item {
+                background-color: rgba(0, 0, 0, 0.05);
+            }
+
+            .fatkun-drop-area .fatkun-drop-area-content .fatkun-left-panel .fatkun-drop-area-item.dragenter {
+                background-color: rgba(255, 255, 255, 0.10);
+            }
+
+            .fatkun-drop-area .fatkun-drop-area-content hr {
+                background-color: rgba(255, 255, 255, 0.1) !important;
+            }
+
+            .fatkun-drop-area .fatkun-drop-area-content .title {
+                color: #fff !important;
+            }
+
+            .fatkun-drop-area .fatkun-drop-area-content .description {
+                color: #fff !important;
+                opacity: 0.7;
+            }
+
+            .fatkun-drop-area .fatkun-drop-area-content .icon {
+                background: rgba(255, 255, 255, 0.10);
+            }
+
+            .fatkun-drop-area .fatkun-drop-area-content .icon .fake-svg {
+                background: #fff;
+            }
+
+        }
+
+        @keyframes icon-jump {
+            0% {
+                transform: translateY(0);
+            }
+
+            20% {
+                transform: translateY(0);
+            }
+
+            40% {
+                transform: translateY(-20px);
+            }
+
+            50% {
+                transform: translateY(0);
+            }
+
+            60% {
+                transform: translateY(-7px);
+            }
+
+            80% {
+                transform: translateY(0);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        .fatkun-drop-bottom-area {
+            font-family: "PingFang SC", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft Yahei", "å¾®è½¯é›…é»‘", "Helvetica Neue", Helvetica, Arial, Arial, sans-serif;
+            font-weight: 400;
+            z-index: 2147483647;
+            position: fixed;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            height: 120px;
+            text-align: center;
+            transition: opacity 0.3s ease-in-out, transform 0.2s ease-in-out, border 0.3s ease-in-out, box-shadow 0.2s ease-in-out;
+            -webkit-perspective: 1000;
+            transform: translateY(100%);
+            background: #303034;
+            border-top: 1px solid rgba(255, 255, 255, 0.07);
+            box-sizing: border-box;
+        }
+
+        .fatkun-drop-bottom-area .fatkun-drop-area-content {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .fatkun-drop-bottom-area .fatkun-drop-area-content .icon {
+            height: 44px;
+            width: 44px;
+            line-height: 44px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.20);
+            border-radius: 50%;
+            transition: all 0.3s ease-in-out;
+            margin-right: 24px;
+        }
+
+        .fatkun-drop-bottom-area .fatkun-drop-area-content .icon .fake-svg {
+            -webkit-mask: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSIxM3B4IiBoZWlnaHQ9IjE1cHgiIHZpZXdCb3g9IjAgMCAxMyAxNSIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4gICAgICAgIDx0aXRsZT5pY19kb3dubG9hZF9ub3JtYWw8L3RpdGxlPiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4gICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+ICAgICAgICA8ZyBpZD0i5paw54mI5pys5ouW5ou95qaC5b+1LS0t5ouW5ou96Kem5Y+RIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtODE0LjAwMDAwMCwgLTM2Mi4wMDAwMDApIiBmaWxsPSIjMzMzMzMzIj4gICAgICAgICAgICA8ZyBpZD0iR3JvdXAtMyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNzA5LjAwMDAwMCwgMjg5LjAwMDAwMCkiPiAgICAgICAgICAgICAgICA8ZyBpZD0iR3JvdXAtNyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjUuMDAwMDAwLCA2MS4wMDAwMDApIj4gICAgICAgICAgICAgICAgICAgIDxnIGlkPSJHcm91cC02IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2Ny40NTAwMDAsIDAuMDAwMDAwKSI+ICAgICAgICAgICAgICAgICAgICAgICAgPGcgaWQ9ImFycm93LWRvd24iIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEyLjM1MDAwMCwgMTIuMzUwMDAwKSI+ICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwb2x5Z29uIGlkPSJpY19kb3dubG9hZF9ub3JtYWwiIHBvaW50cz0iNi42NSAxMy43NzUgMC40NzUgNy42IDMuOCA3LjYgMy44IDAgOS41IDAgOS41IDcuNiAxMi44MjUgNy42Ij48L3BvbHlnb24+ICAgICAgICAgICAgICAgICAgICAgICAgPC9nPiAgICAgICAgICAgICAgICAgICAgPC9nPiAgICAgICAgICAgICAgICA8L2c+ICAgICAgICAgICAgPC9nPiAgICAgICAgPC9nPiAgICA8L2c+PC9zdmc+) no-repeat center center;
+            height: 44px;
+            width: 44px;
+            background: #fff;
+            transition: all 0.3s ease-in-out;
+            animation: icon-jump 1s ease 0s infinite normal;
+        }
+
+        .fatkun-drop-bottom-area .fatkun-drop-area-content .title {
+            font-family: "PingFang SC", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft Yahei", "å¾®è½¯é›…é»‘", "Helvetica Neue", Helvetica, Arial, Arial, sans-serif;
+            font-size: 18px !important;
+            font-weight: 500 !important;
+            -webkit-font-smoothing: antialiased !important;
+            -moz-osx-font-smoothing: grayscale !important;
+            color: #fff !important;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .fatkun-drop-bottom-area.show {
+            opacity: 0.8;
+            transform: translateY(0) scale3d(1, 1, 1);
+        }
+
+        .fatkun-drop-bottom-area.dragover {
+            opacity: 0.95;
+        }
+        #fatkun-drop-panel-close-btn{
+            z-index: 1;
+            display: block;
+            width: 24px;
+            height: 24px;
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            font-size: 24px;
+            color: #000;
+            text-align: center;
+            text-decoration: none;
+            line-height: 24px;
+        }
+    </style>
+
+    <div id="fatkun-drop-area" class="fatkun-drop-area old-version" style="left: 7px;top: 0;">
+        <div id="fatkun-drop-panel-close-btn">×</div>
+        <div class="fatkun-drop-area-content">
+            <div class="fatkun-left-panel">
+                <div class="fatkun-drop-area-item" folder-id="">
+                    <div>
+                        <div class="icon">
+                            <div class="fake-svg"></div>
+                        </div>
+                        <div class="title">Drag and drop</div>
+                        <div class="description">The image dropped here will be downloaded by Fatkun</div>
+                    </div>
+                </div>
+            </div>
+            <div class="fatkun-right-panel">
+                <div id="fatkun-drop-area-folders">
+                </div>
+                <div class="fatkun-drop-area-item" folder-id="choose">
+                    <div class="title">Choose folder...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="fatkun-drop-area-overlay" class="" style="
+    opacity: 1;
+"></div>
+</template></fatkun-drop-panel></html>
