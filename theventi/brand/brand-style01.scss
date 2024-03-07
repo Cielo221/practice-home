@@ -1,0 +1,125 @@
+// ======더벤티 연혁=======
+
+// font
+@import "../font.scss";
+
+/* reset */
+@import "../reset.scss";
+
+.header {
+  width: 100%;
+  height: 91px;
+}
+
+/* custom  */
+//brand
+.brand {
+  width: 100%;
+  height: 510px;
+  background: url(../img/03brand/sv_1.png) center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .br-content {
+    color: #fff;
+    text-align: center;
+    h1 {
+      font: bold 2.8rem/1 "geometos";
+      line-height: -1px;
+      margin-bottom: 19px;
+    }
+    p {
+      font: 1.12rem/1 "suitL";
+    }
+  }
+}
+//sub-nav
+.sub-nav {
+  width: 100%;
+  height: 67px;
+  border-bottom: 2px solid #ddd;
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    li {
+      padding: 21px 30px;
+      font: 1.12rem/1.2 "suitM";
+      color: #333;
+      transition: all 0.3s;
+      &:hover {
+        color: #780997;
+        border-bottom: 3px solid #780997;
+      }
+    }
+  }
+}
+.active a {
+  color: #780997;
+}
+//history
+.history {
+  width: 100%;
+  height: 1110px;
+  position: relative;
+  .history-wrap {
+    width: 1100px;
+    margin: 0 auto;
+    .header-text {
+      text-align: center;
+      margin: 70px 0 40px;
+      h1 {
+        font: 2rem/1 "suitB";
+        color: #7b00a0;
+        margin-bottom: 25px;
+      }
+      p {
+        font: bold 1rem/1 "geometos";
+        color: #666;
+      }
+    }
+    .bar {
+      display: inline-block;
+      width: 1200px;
+      border: 1px solid #780997;
+      position: relative;
+      &::after {
+        content: "";
+        width: 15px;
+        height: 15px;
+        background: #780997;
+        border-radius: 100%;
+        position: absolute;
+        top: -7px;
+        left: -5px;
+      }
+      &::before {
+        content: "";
+        width: 15px;
+        height: 15px;
+        background: #780997;
+        border-radius: 100%;
+        position: absolute;
+        top: -7px;
+        right: -5px;
+      }
+    }
+    .contents-box {
+      padding: 20px;
+      width: 900px;
+      height: 500px;
+      box-shadow: 0 0 5px rgba($color: #000000, $alpha: 0.4);
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      .content {
+        border: 1px solid #f00;
+        display: flex;
+        gap: 50px;
+        align-items: center;
+      }
+    }
+  }
+}
